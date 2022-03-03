@@ -10,7 +10,7 @@ public class CellPosition
     // -- Диапазоны возможных значений по горизонтали и вертикали для всех позиций --
 
     private static CellRange _horizontalRange = new CellRange(0, 0);
-    private static CellRange _verticalRange = new CellRange(0, 0);
+    private static CelRange _verticalRange = new CellRange(0, 0);
 
     public static void seHorizontalRange(int min, int max)
     {

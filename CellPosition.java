@@ -12,7 +12,7 @@ public class CellPosition
     private static CellRange _horizontalRange = new CellRange(0, 0);
     private static CellRange _verticalRange = new CellRange(0, 0);
 
-    public static void setHorizontalRange(int min, int max)
+    public static void seHorizontalRange(int min, int max)
     {
         if(CellRange.isValidRange(min, max))
             _horizontalRange = new CellRange(min, max);
